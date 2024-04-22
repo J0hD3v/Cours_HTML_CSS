@@ -74,3 +74,20 @@ footer {
         margin-right: 0;
     }
 }
+
+
+h2 {
+    color: green;
+}
+
+.categorie {
+    color: red;
+}
+
+#nom {
+    color: blue;
+}
+
+#img_home {
+    width: 100px;
+}
