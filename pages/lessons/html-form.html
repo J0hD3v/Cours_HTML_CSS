@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cours Html-Css</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style-form.css">
 </head>
 
 <body>
@@ -35,7 +36,20 @@
 
     <main>
         <!-- à voir -->
-        <h1> ICI C'EST LE SELECTEUR ? </h1>
+        <h1> ICI C'EST LE FORMULAIRE </h1>
+        <form action="register.php" method="post">
+            <h4>Renseignez ces informations</h4>
+            <label for="pseudo"></label>
+            <input type="text" name="pseudonyme" id="pseudo">
+            <input type="text" name="firstname" id="prenom" placeholder="votre Prénom">
+            <input type="password" name="motDePasse" id="mdp">
+            <textarea name="description" id="desc" cols="30" rows="10"></textarea>
+            <input type="email" name="mail" id="mail">
+            <input type="url" name="site" id="mysite">
+            <input type="tel" name="tel" id="tel">
+            <input type="number" name="number" id="number">
+            <input type="range" name="range" id="range">
+        </form>
     </main>
     <footer>
         <p>&copy; 2024 Mon Cours. Tous droits réservés.</p>

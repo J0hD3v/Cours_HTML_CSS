@@ -1,0 +1,26 @@
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+}
+
+
+input[type=range]#range {
+    -webkit-appearance: none;     /*nécessaire pour Chrome */
+    padding: 0;                   /* nécessaire pour IE */
+    font: inherit;                /* même rendu suivant font document */
+    outline: none;
+    color: #b13333;                  /* sert pour couleur de référence, via currentColor, pour le curseur */
+    opacity: .8;
+    background: #69d4ff;             /* sert pour couleur de fond de la zone de déplacement */
+    box-sizing: border-box;       /* même modèle de boîte pour tous */
+    transition: opacity .2s;
+    cursor: pointer;
+  }
