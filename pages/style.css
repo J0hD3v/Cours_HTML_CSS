@@ -97,26 +97,30 @@ h2 {
     display: inline-block;
     cursor: pointer;
     background-color: darkolivegreen;
-    width: 10%;
-    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #dropdown:hover #dropdown_contenu {
     display: block;
     background-color: #333;
-    min-width: inherit;
     padding-top: 30%;
 }
 
 #dropdown_contenu {
     display: none;
     position: absolute;
-    min-width: inherit;
+    left: -1%;
+    width: inherit;
 }
 
 
 
 #dropdown_contenu ul li{
     display: block;
-    /* min-width: inherit; */
+}
+
+
+audio {
+    display: block;
 }
