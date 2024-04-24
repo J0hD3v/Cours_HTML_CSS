@@ -1,0 +1,34 @@
+.container_image {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.container_image img:hover {
+    animation: 1s linear 0s infinite rotate;
+}
+
+
+#main-extravagant {
+    animation: 1s ease-in-out 0s infinite alternate blink;
+}
+
+
+@keyframes rotate {
+    0%      {transform: rotate(0deg);}
+    100%    {transform: rotate(360deg);}
+}
+
+/* @keyframes blink {
+    0%      {background: linear-gradient(86deg, rgba(185,140,69,1) 20%, rgba(103,146,154,1) 63%);}
+    25%     {background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+    25%     {}
+    50%     {background: linear-gradient(169deg, rgba(168,77,77,1) 22%, rgba(84,83,149,1) 81%);}
+    75%     {background: linear-gradient(90deg, rgba(144,102,172,1) 0%, rgba(205,100,100,1) 50%, rgba(198,143,67,1) 100%);}
+    100%    {background: radial-gradient(circle, rgba(96,171,172,1) 0%, rgba(137,190,125,1) 47%, rgba(253,187,45,1) 100%);}
+} */
+
+@keyframes blink {
+    0%      {background-color: rgb(255, 182, 133);}
+    100%    {background-color: rgb(119, 119, 219);}
+}
