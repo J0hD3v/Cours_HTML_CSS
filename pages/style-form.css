@@ -11,16 +11,18 @@ textarea {
     margin-bottom: 10px;
 }
 
+form h4 {
+    margin-bottom: 1em;
+}
 
-input[type=range]#range {
-    -webkit-appearance: none;     /*nécessaire pour Chrome */
-    padding: 0;                   /* nécessaire pour IE */
-    font: inherit;                /* même rendu suivant font document */
-    outline: none;
-    color: #b13333;                  /* sert pour couleur de référence, via currentColor, pour le curseur */
-    opacity: .8;
-    background: #69d4ff;             /* sert pour couleur de fond de la zone de déplacement */
-    box-sizing: border-box;       /* même modèle de boîte pour tous */
-    transition: opacity .2s;
-    cursor: pointer;
-  }
+form textarea {
+    min-height: 2em;
+    max-height: 500px;
+    min-width: 10em;
+    max-width: 100%;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
