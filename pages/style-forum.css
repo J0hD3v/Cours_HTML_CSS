@@ -1,0 +1,32 @@
+.container_forum {
+    background-color: aliceblue;
+    width: 75vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.forum_ligne {
+    background-color: whitesmoke;
+    width: calc(100% - 10px);
+    min-height: 20%;
+    border: 1px solid black;
+    padding: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forum_ligne:nth-of-type(even) {
+    background-color: gainsboro;
+}
+
+.forum_ligne div p {
+    text-align: end;
+    border: 0.5px solid black;
+}
+
+.forum_ligne img {
+    width: 10vw;
+}
