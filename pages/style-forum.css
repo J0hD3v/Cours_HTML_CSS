@@ -10,7 +10,7 @@
 .forum_ligne {
     background-color: whitesmoke;
     width: calc(100% - 10px);
-    min-height: 20%;
+    height: 15vh;
     border: 1px solid black;
     padding: 1em;
 
@@ -28,5 +28,6 @@
 }
 
 .forum_ligne img {
-    width: 10vw;
+    max-width: 10vw;
+    max-height: 10vh;
 }
