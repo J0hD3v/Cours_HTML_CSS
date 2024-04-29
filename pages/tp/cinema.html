@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style-cinema.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Cours HTML - CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="../home.html">Accueil</a></li>
+                <li><a href="../veille-tech.html">Veille tech</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="../lessons/html-text.html">Leçon 1 : Html (text)</a></li>
+                <li><a href="../lessons/html-liens.html">Leçon 2 : Html (liens)</a></li>
+                <li><a href="../lessons/html-img.html">Leçon 3 : Html (images)</a></li>
+                <li><a href="../lessons/html-form.html">Leçon 4 : Html (form)</a></li>
+                <li id="dropdown">
+                    <span>Les TP</span>
+                    <div id="dropdown_contenu">
+                        <ul>
+                            <li><a href="./cv.html">Mon CV</a></li>
+                            <li><a href="./pseudo-classes.html">Pseudo-classes</a></li>
+                            <li><a href="./inscription.html">Inscription</a></li>
+                            <li><a href="./connexion.html">Connexion</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- à voir -->
+        <h1> Forum </h1>
+
+        <div class="header_cinema">
+            <img src="../../images/icon_cinema.png" alt="logo">
+            <input type="text" name="search_bar" id="search_bar">
+        </div>
+
+        <section class="section_1">
+            <article id="left_part">
+                <section id="video_1">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/qVOjXQUzOJw" title="J&#39;ai simulé l&#39;évolution de l&#39;égoïsme." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+                <section id="video_description">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non commodi at quisquam rem. Iste cumque quae rerum ab molestias architecto, consequuntur voluptatem modi praesentium optio eius earum, itaque nulla.
+                    </p>
+                </section>
+            </article>
+            <aside id="right_part">
+                <article>
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/UGkRWUAoxfA" title="M&amp;M&#39;s Crispy &quot;les M&amp;M&#39;s Crispy sont là!&quot; Pub 20s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+                <article>
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/u1wg1lbIihE" title="Encore une coupure PUB - Palmashow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+                <article>
+                    <iframe width="1280" height="716" src="https://www.youtube.com/embed/AvguyTT1LMQ" title="Pub drôle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+            </aside>
+        </section>
+
+        <div class="footer_cinema"></div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Cours. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>

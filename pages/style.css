@@ -44,7 +44,7 @@ main {
     padding: 20px;
 }
 
-section {
+#main_home section {
     margin-bottom: 20px;
 }
 
@@ -176,19 +176,19 @@ main section {
     padding: 0.5em;
 }
 
-#lessons .container:nth-of-type(odd) {
+.lessons .container:nth-of-type(odd) {
     background-color: white;
 }
 
-#lessons .container:nth-of-type(even) {
+.lessons .container:nth-of-type(even) {
     background-color: rgb(85, 172, 187);
 }
 
-#tp .container:nth-of-type(odd) {
+.tp .container:nth-of-type(odd) {
     background-color: rgb(255, 232, 197);
 }
 
-#tp .container:nth-of-type(even) {
+.tp .container:nth-of-type(even) {
     background-color: rgb(187, 151, 85);
 }
 
