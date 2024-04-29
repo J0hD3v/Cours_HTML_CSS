@@ -168,6 +168,7 @@ main section {
 }
 
 .container a hr {
+    font-style: normal;
     width: 200px;
     height: 0;
 }

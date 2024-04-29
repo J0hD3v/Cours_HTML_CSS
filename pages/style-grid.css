@@ -1,0 +1,46 @@
+/* navbar inutile */
+
+.navigation_inutile {
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+
+.navigation_inutile h1 {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+
+.navigation_inutile ul {
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* articles */
+
+.container_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 2em;
+}
+
+.container_grid article:nth-of-type(1) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.container_grid article:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.container_grid article:nth-of-type(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
