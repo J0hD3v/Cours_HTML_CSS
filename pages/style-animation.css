@@ -1,0 +1,88 @@
+@keyframes maSuperAnimation {
+    0% {
+        background-image: url(../images/icon\ mario.png);
+    }
+
+    10% {
+        background-image: url(../images/icon\ link.png);
+        transform: rotate3d(5,5,5,50deg) perspective(200px);
+    }
+    20% {
+        background-image: url(../images/icon\ pikachu.png);
+    }
+    30% {
+        background-image: url(../images/icon\ yoshi.png);
+    }
+    40% {
+        background-image: url(../images/icon\ didi.png);
+    }
+    50% {
+        background-image: url(../images/icon\ link.png);
+    }
+    60% {
+        background-image: url(../images/icon\ kirby.png);
+    }
+    70% {
+        background-image: url(../images/icon\ steve.png);
+    }
+    80% {
+        background-image: url(../images/icon\ wario.png);
+    }
+    90% {
+        background-image: url(../images/icon\ harmonie.png);
+    }
+    100% {
+        background-image: url(../images/icon\ metaknight.png);
+    }
+}
+
+@keyframes maDeuxiemeSuperAnimation {
+    0% {
+        transform: translateX(0);
+        background-color: red;
+    }
+
+    50% {
+        transform: translateX(150px);
+        background-color: blue;
+    }
+
+    100% {
+        transform: translateX(150px) rotate(10turn);
+        color: chartreuse;
+        margin-top: 340px;
+    }
+}
+
+/* Le bouton */
+main button {
+    position: absolute;
+    top: 20vh;
+    right: 2vw;
+}
+
+/* L'image */
+.image {
+    display: block;
+    height: 200px;
+}
+.image:hover {
+    scale: 1.5;
+}
+
+/* La div animée */
+.animation, .animation_playing {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 300px;
+    background-color: palegreen;
+}
+
+.animation:hover {
+    animation: maSuperAnimation 6s;
+}
+
+.animation_playing {
+    animation: maDeuxiemeSuperAnimation 6s infinite alternate;
+}
